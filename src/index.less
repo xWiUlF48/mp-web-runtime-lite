@@ -1,0 +1,40 @@
+:root {
+  --sat: env(safe-area-inset-top);
+  --sar: env(safe-area-inset-right);
+  --sab: env(safe-area-inset-bottom);
+  --sal: env(safe-area-inset-left);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+wx-page {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: PingFangSC-Regular;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+wx-page,
+wx-view {
+  display: block;
+}
+
+wx-image {
+  display: inline-block;
+}
+
+wx-text {
+  white-space: pre-line;
+}
