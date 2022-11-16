@@ -30,3 +30,7 @@ yarn dev
   |- App.tsx         # 项目入口
   |- index.less      # 全局样式表
 ```
+
+## helpers
+
+在浏览器 console 中可以运行 `copy(getComponent('components/component/index'))` 获取指定组件的 wxml、js、wxss 代码。相关逻辑在 `src/lib` 目录下，仅用于逆向推导相关业务逻辑，不保证 100% 准确率。
